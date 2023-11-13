@@ -1,0 +1,53 @@
+:root {
+    --color-gray: gray;
+    --color-dark-red: rgb(154, 0, 0);
+    --color-white: white;
+    --color-black: black;
+    --size-80: 80px;
+    --width-300: 300px;
+    --height-300: 320px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav__logo {
+    width: var(--size-80);
+    height: var(--size-80);
+}
+.nav__icon {
+}
+.korting {
+    background-color: var(--color-gray);
+}
+h3 {
+    font-weight: normal;
+}
+h4 {
+    font-weight: normal;
+}
+.card__image {
+    width: var(--width-300);
+    height: var(--height-300);
+}
+.card__name {
+    font-weight: normal;
+}
+.card__extra {
+    color: var(--color-gray);
+}
+.card__extra--red {
+    color: var(--color-dark-red);
+}
+.footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.footer__left {
+    display: flex;
+}
+.footer__left__copyright {
+    color: var(--color-gray);
+}
