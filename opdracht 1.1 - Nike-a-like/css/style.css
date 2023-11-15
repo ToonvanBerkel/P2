@@ -1,11 +1,11 @@
 :root {
-    --color-gray: gray;
-    --color-dark-red: rgb(154, 0, 0);
-    --color-white: white;
-    --color-black: black;
-    --size-80: 80px;
-    --width-300: 300px;
-    --height-300: 320px;
+    --color-primary: black;
+    --color-secondary: white;
+    --color-tertiary: gray;
+    --color-quaternary: rgb(154, 0, 0);
+    --size-primary: 80px;
+    --width-primary: 300px;
+    --height-primary: 320px;
 }
 
 * {
@@ -14,13 +14,13 @@
 }
 
 .nav__logo {
-    width: var(--size-80);
-    height: var(--size-80);
+    width: var(--size-primary);
+    height: var(--size-primary);
 }
 .nav__icon {
 }
 .korting {
-    background-color: var(--color-gray);
+    background-color: var(--color-tertiary);
 }
 h3 {
     font-weight: normal;
@@ -29,25 +29,25 @@ h4 {
     font-weight: normal;
 }
 .card__image {
-    width: var(--width-300);
-    height: var(--height-300);
+    width: var(--width-primary);
+    height: var(--height-primary);
 }
 .card__name {
     font-weight: normal;
 }
 .card__extra {
-    color: var(--color-gray);
+    color: var(--color-tertiary);
 }
 .card__extra--red {
-    color: var(--color-dark-red);
+    color: var(--color-quaternary);
 }
 .footer {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
 }
 .footer__left {
     display: flex;
 }
 .footer__left__copyright {
-    color: var(--color-gray);
+    color: var(--color-tertiary);
 }
