@@ -1,0 +1,8 @@
+a::after {
+    content: 'Best channel ever';
+    height: 100px;
+    width: auto;
+    display: block;
+    color: red;
+    text-decoration: underline;
+}
