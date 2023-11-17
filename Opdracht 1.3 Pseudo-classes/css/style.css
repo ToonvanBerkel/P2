@@ -81,7 +81,7 @@ form:target {
     box-shadow: 0 0 10px var(--secondary-color);
 }
 
-input:placeholder-shown {
+input:placeholder-shown{
     color: red;
 }
 
