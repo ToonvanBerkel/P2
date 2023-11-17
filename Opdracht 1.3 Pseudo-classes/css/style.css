@@ -85,6 +85,11 @@ input:placeholder-shown{
     color: red;
 }
 
+input[type='checkbox']:checked {
+    border: none;
+    outline: 2px solid red;
+}
+
 /*/Als je nou ::placeholder gebruikt zie je het ook echt
 
 input::placeholder {
