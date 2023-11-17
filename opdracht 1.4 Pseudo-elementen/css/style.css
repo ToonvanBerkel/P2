@@ -6,7 +6,7 @@ a::after {
     text-decoration: underline;
 }
 
-a::before {
+a::before { /*//*/
     content: 'Best channel ever';
     width: auto;
     display: block;
