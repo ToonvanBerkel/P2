@@ -1,10 +1,9 @@
 let budget = 100;
-let product = 60;
 let element = document.getElementById("title");
 
-let price = prompt("Hoeveel kost het product dat je wilt kopen?");
+let product = prompt("Hoeveel kost het product dat je wilt kopen?");
 
-if (price <= budget) {
+if (product <= budget) {
     element.innerText = "U heeft genoeg geld";
     element.style.color = "green";
 }else {
