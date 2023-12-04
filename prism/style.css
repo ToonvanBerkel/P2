@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: white;
+}
+
+section {
+    background-color: #000A2B;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    margin: 10px 0 10px 0;
+    background-color: #000E40;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 150px 0 150px;
+}
+
+.language-css{
+    width: 80%;
+}
