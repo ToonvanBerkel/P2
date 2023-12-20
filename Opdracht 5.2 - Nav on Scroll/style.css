@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 400vh;
+}
+
+nav {
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+#nav.hide {
+    transform: translateY(-100%);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-left: 40px;
+    font-size: 30px;
+    color: white;
+}
