@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.turtle {
+    width: 3vw;
+    height: 5vh;
+    object-fit: contain;
+    rotate: 90deg;
+    margin-top: 0;
+    margin-left: 0;
+}
