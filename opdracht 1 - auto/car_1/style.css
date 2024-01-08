@@ -8,19 +8,13 @@ body {
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-}
-
-.trafficlight {
-    width: 5vw;
-    height: auto;
-    margin: 150px 0 0 620px;
+    flex-direction: row;
 }
 
 .card {
     background-color: white;
     width: 30vw;
-    height: 30vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,6 +24,21 @@ body {
 }
 .card__btns {
     display: flex;
-    width: 28vw;
+    width: 10vw;
     justify-content: space-around;
+}
+
+.road {
+    position: relative;
+    height: 100%;
+    width: 15vw;
+    left: 3%;
+}
+
+.car {
+    position: absolute;
+    bottom: 0;
+    left: 55%;
+    width: 200px;
+    transform: translateX(-50%);
 }

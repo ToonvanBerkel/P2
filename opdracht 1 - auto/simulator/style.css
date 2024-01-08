@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/background.png);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background-color: white;
+    width: 33vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px 0 0 8px;
+}
+.card__p {
+    width: 29vw;
+    text-align: center;
+}
+.card__btns {
+    display: flex;
+    width: 32vw;
+    justify-content: space-around;
+}
+
+.road {
+    position: relative;
+    height: 100%;
+    width: 15vw;
+    left: 3%;
+}
+
+.car {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    width: 200px;
+    transform: translateX(-50%);
+}
+
+.trafficlight {
+    position: absolute;
+    height: 15vh;
+    bottom: 190px;
+    left: 620px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="card__title">Simulation</h1>
+        <p class="card__p">
+            Opdracht 1.
+        </p>
+        <p class="card__p">
+            Klik op een knop om het stoplicht te veranderen of om de auto te bewegen.
+        </p>
+        <div class="card__btns">
+            <button onclick="red()" class="card__btns__btn">Red</button>
+            <button onclick="orange()" class="card__btns__btn">Orange</button>
+            <button onclick="green()" class="card__btns__btn">Green</button>
+            <button onclick="shutoff()" class="card__btns__btn">Shut Off</button>
+            <button onclick="turnOn()" class="card__btns__btn">Turn On</button>
+            <button onclick="blink()" class="card__btns__btn">Blink</button>
+            <button onclick="turnOff()" class="card__btns__btn">Turn Off</button>
+            <button onclick="start()">Start</button>
+            <button onclick="again()">Again</button>
+            <button onclick="stop()">Stop</button>
+        </div>
+    </div>
+    <div class="road">
+        <img src="./img/car.png" alt="car" id="car" class="car">
+    </div>
+    <img src="./img/green_light.png" alt="streetlight" onclick="changeTrafficLight()" id="trafficLight"
+        class="trafficlight">
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
