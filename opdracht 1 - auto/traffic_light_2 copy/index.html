@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opdracht 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="card__title">traffic Light 2 copy</h1>
+        <p class="card__p">
+            Opdracht 3.
+        </p>    
+        <p>
+            Klik op een knop om het stoplicht te veranderen.
+        </p>
+        <div class="card__btns">
+            <button onclick="red()" class="card__btns__btn">red</button>
+            <button onclick="orange()" class="card__btns__btn">orange</button>
+            <button onclick="green()" class="card__btns__btn">green</button>
+            <button onclick="shutoff()" class="card__btns__btn">shutoff</button>
+        </div>
+    </div>
+
+    <img src="./img/red_light.png" alt="streetlight" onclick="changeTrafficLight()" id="trafficLight"
+        class="trafficlight">
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

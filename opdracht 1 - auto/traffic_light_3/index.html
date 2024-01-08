@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light 3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="card__title">Traffic Light 3</h1>
+        <p class="card__p">
+            Opdracht 4.
+        </p>
+        <p>
+            Klik op een knop om het stoplicht te veranderen.
+        </p>
+        <div class="card__btns">
+            <button onclick="red()" class="card__btns__btn">Red</button>
+            <button onclick="orange()" class="card__btns__btn">Orange</button>
+            <button onclick="green()" class="card__btns__btn">Green</button>
+            <button onclick="shutoff()" class="card__btns__btn">Shut Off</button>
+            <button onclick="turnOn()" class="card__btns__btn">Turn On</button>
+            <button onclick="blink()" class="card__btns__btn">Blink</button>
+            <button onclick="turnOff()" class="card__btns__btn">Turn Off</button>
+        </div>
+    </div>
+
+    <img src="./img/red_light.png" alt="streetlight" onclick="changeTrafficLight()" id="trafficLight"
+        class="trafficlight">
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
